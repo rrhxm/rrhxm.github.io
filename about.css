@@ -107,15 +107,15 @@ ul li a {
   border: 2px solid transparent;
   text-decoration: none;
   font-weight: 600;
-  color: #5b8fde; /* Changed to blue */
-  background-color: white; /* Changed to black */
+  color: white; /* Changed to blue */
+  background-color: #5b8fde; /* Changed to black */
   transition: 0.3s;
 }
 
 ul li a:hover {
   border-top-color: white; /* Changed to blue */
   border-bottom-color: white; /* Changed to blue */
-  color: white;
+  color: black;
   background-color: #5b8fde; /* Changed to white */
 }
 
