@@ -37,7 +37,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: blue; /* Changed to blue */
+  background-color: #5b8fde; /* Changed to blue */
   z-index: 99;
   height: 70px;
 }
@@ -67,7 +67,7 @@ nav .logo a {
   align-items: center;
   font-size: 1.5rem;
   font-weight: 600;
-  color: blue; /* Changed to blue */
+  color: white; /* Changed to blue */
   transition: 0.3s;
   text-decoration: none;
 }
@@ -86,12 +86,12 @@ nav input {
 
 nav .checkbox i {
   font-size: 2rem;
-  color: blue; /* Changed to blue */
+  color: ; white/* Changed to blue */
   cursor: pointer;
 }
 
 nav .checkbox i:hover {
-  color: white;
+  color: blue;
 }
 
 ul {
@@ -145,7 +145,7 @@ ul li a:hover {
 
 h2 {
   margin: 10px 0;
-  color: #ff9001;
+  color: #5b8fde;
 }
 
 p {
