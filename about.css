@@ -67,13 +67,13 @@ nav .logo a {
   align-items: center;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #5b8fde; /* Changed to blue */
+  color: white; /* Changed to blue */
   transition: 0.3s;
   text-decoration: none;
 }
 
 nav .logo a:hover {
-  color: #5b8fde;
+  color: white;
 }
 
 nav .checkbox {
@@ -86,7 +86,7 @@ nav input {
 
 nav .checkbox i {
   font-size: 2rem;
-  color: ; #5b8fde/* Changed to blue */
+  color: ; #f70505/* Changed to blue */
   cursor: pointer;
 }
 
