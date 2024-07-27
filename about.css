@@ -3,7 +3,7 @@
 :root {
   --primary-color: #a855f7;
   --primary-color-dark: #9333ea;
-  --secondary-color: #ca8a04;
+  --secondary-color: #364be3;
   --text-dark: #1f2937;
   --text-light: #6b7280;
   --extra-light: #faf5ff;
@@ -22,7 +22,7 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #000000;
+  background-color: #6580c9;
   color: white;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #000000;
+  background-color: #6580c9;
   z-index: 99;
   height: 70px;
 }
