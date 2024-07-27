@@ -119,13 +119,13 @@ ul li a:hover {
 
 /* About Me Styles */
 .about-me {
-  padding: 100px 1rem 50px 1rem;
-  background-color: black;
-  color: #ff9001;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
+  height: calc(100vh - 70px); /* Full viewport height minus navbar height */
+  width: 100%;
 }
 
 .container {
