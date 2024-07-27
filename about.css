@@ -91,7 +91,7 @@ nav .checkbox i {
 }
 
 nav .checkbox i:hover {
-  color: white;
+  color: #f70505;
 }
 
 ul {
@@ -107,16 +107,16 @@ ul li a {
   border: 2px solid transparent;
   text-decoration: none;
   font-weight: 600;
-  color: blue; /* Changed to blue */
-  background-color: black; /* Changed to black */
+  color: #5b8fde; /* Changed to blue */
+  background-color: white; /* Changed to black */
   transition: 0.3s;
 }
 
 ul li a:hover {
-  border-top-color: blue; /* Changed to blue */
-  border-bottom-color: blue; /* Changed to blue */
+  border-top-color: black; /* Changed to blue */
+  border-bottom-color: black; /* Changed to blue */
   color: white;
-  background-color: white; /* Changed to white */
+  background-color: #5b8fde; /* Changed to white */
 }
 
 /* About Me Styles */
