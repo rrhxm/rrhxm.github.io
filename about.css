@@ -113,8 +113,8 @@ ul li a {
 }
 
 ul li a:hover {
-  border-top-color: black; /* Changed to blue */
-  border-bottom-color: black; /* Changed to blue */
+  border-top-color: white; /* Changed to blue */
+  border-bottom-color: white; /* Changed to blue */
   color: white;
   background-color: #5b8fde; /* Changed to white */
 }
@@ -202,7 +202,7 @@ footer {
 }
 
 .footer__content ul li a {
-  color: black;
+  color: #5b8fde;
   text-decoration: none;
   font-weight: 600;
 }
@@ -222,7 +222,7 @@ footer {
     height: calc(100vh - 70px);
     left: -100%;
     top: 70px;
-    background-color: #5b8fde;
+    background-color: black;
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
