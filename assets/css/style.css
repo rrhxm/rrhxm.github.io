@@ -492,19 +492,19 @@ main {
 
 
 /*-----------------------------------*\
-  #ABOUT
+  #HOME
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.home .article-title { margin-bottom: 15px; }
 
-.about-text {
+.home-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.home-text p { margin-bottom: 15px; }
 
 
 
@@ -761,10 +761,10 @@ main {
 
 
 /*-----------------------------------*\
-  #RESUME
+  #ABOUT ME
 \*-----------------------------------*/
 
-.article-title { margin-bottom: 30px; }
+.about .article-title { margin-bottom: 30px; }
 
 
 /**
@@ -872,7 +872,7 @@ main {
 
 
 /*-----------------------------------*\
-  #PORTFOLIO
+  #PROJECTS
 \*-----------------------------------*/
 
 .filter-list { display: none; }
