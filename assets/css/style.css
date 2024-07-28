@@ -492,19 +492,19 @@ main {
 
 
 /*-----------------------------------*\
-  #Home
+  #ABOUT
 \*-----------------------------------*/
 
-.Home .article-title { margin-bottom: 15px; }
+.about .article-title { margin-bottom: 15px; }
 
-.Home-text {
+.about-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
-.Home-text p { margin-bottom: 15px; }
+.about-text p { margin-bottom: 15px; }
 
 
 
@@ -761,7 +761,7 @@ main {
 
 
 /*-----------------------------------*\
-  #About Me
+  #RESUME
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
@@ -872,7 +872,7 @@ main {
 
 
 /*-----------------------------------*\
-  #Projects
+  #PORTFOLIO
 \*-----------------------------------*/
 
 .filter-list { display: none; }
@@ -1244,7 +1244,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #Projects, BLOG 
+   * #PORTFOLIO, BLOG 
    */
 
   .project-img,
@@ -1382,12 +1382,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #Home
+   * #ABOUT
    */
 
-  .Home .article-title { margin-bottom: 20px; }
+  .about .article-title { margin-bottom: 20px; }
 
-  .Home-text { margin-bottom: 40px; }
+  .about-text { margin-bottom: 40px; }
 
   /* service */
 
@@ -1485,7 +1485,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #About Me
+   * #RESUME
    */
 
   .timeline-list { margin-left: 65px; }
@@ -1503,7 +1503,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #Projects, BLOG
+   * #PORTFOLIO, BLOG
    */
 
   .project-img, .blog-banner-box { border-radius: 16px; }
@@ -1581,7 +1581,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * Home
+   * ABOUT
    */
 
   /* testimonials modal */
@@ -1596,7 +1596,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * Projects
+   * PORTFOLIO
    */
 
   .article-title { padding-bottom: 20px; }
@@ -1622,7 +1622,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button.active { color: var(--insta-blue-crayola); }
 
-  /* Projects and blog grid */
+  /* portfolio and blog grid */
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
@@ -1720,7 +1720,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * Home
+   * ABOUT
    */
 
   /* service */
@@ -1741,7 +1741,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * Projects
+   * PORTFOLIO
    */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
@@ -1874,7 +1874,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-	 * About Me
+	 * RESUME
 	 */
 
   .timeline-text { max-width: 700px; }
