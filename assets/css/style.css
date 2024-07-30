@@ -609,6 +609,42 @@ main {
 
 
 /**
+ * #Tech Stack 
+ */
+
+.stack { margin-bottom: 15px; }
+
+.stack-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 -15px;
+  padding: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+.stack-item {
+  min-width: 50%;
+  scroll-snap-align: start;
+}
+
+.stack-item img {
+  width: 100%;
+  filter: grayscale(1);
+  transition: var(--transition-1);
+}
+
+.stack-item img:hover { filter: grayscale(0); }
+
+
+
+/**
  * #testimonials-modal
  */
 
@@ -720,41 +756,6 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
-
-
-/**
- * #Tech Stack 
- */
-
-.stack { margin-bottom: 15px; }
-
-.stack-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
-}
-
-.stack-item {
-  min-width: 50%;
-  scroll-snap-align: start;
-}
-
-.stack-item img {
-  width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
-}
-
-.stack-item img:hover { filter: grayscale(0); }
 
 
 
@@ -1236,7 +1237,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 @media (min-width: 450px) {
 
   /**
-   * client
+   * Tech Stack
    */
 
   .stack-item { min-width: calc(33.33% - 10px); }
@@ -1406,6 +1407,17 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .service-content-box { text-align: left; }
 
+  /* stack */
+
+  .stack-list {
+    gap: 50px;
+    margin: 0 -30px;
+    padding: 45px;
+    scroll-padding-inline: 45px;
+  }
+
+  .stack-item { min-width: calc(33.33% - 35px); }
+	
   /* testimonials */
 
   .testimonials-title { margin-bottom: 25px; }
@@ -1471,16 +1483,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 35px;
   }
 
-  /* stack */
-
-  .stack-list {
-    gap: 50px;
-    margin: 0 -30px;
-    padding: 45px;
-    scroll-padding-inline: 45px;
-  }
-
-  .stack-item { min-width: calc(33.33% - 35px); }
 
 
 
@@ -1730,13 +1732,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     gap: 20px 25px;
   }
 
-  /* testimonials */
-
-  .testimonials-item { min-width: calc(50% - 15px); }
-
   /* stack */
 
   .stack-item { min-width: calc(25% - 38px); }
+	
+  /* testimonials */
+
+  .testimonials-item { min-width: calc(50% - 15px); }
 
 
 
