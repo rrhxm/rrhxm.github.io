@@ -747,13 +747,13 @@ main {
   scroll-snap-align: start;
 }
 
-/* .stack-item img {
+.stack-item img {
   width: 100%;
-  filter: grayscale(1);
+/*   filter: grayscale(1); */
   transition: var(--transition-1);
 }
 
-.stack-item img:hover { filter: grayscale(0); } */
+/* .stack-item img:hover { filter: grayscale(0); } */
 
 
 
