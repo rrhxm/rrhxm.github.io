@@ -804,7 +804,7 @@ main {
 }
 
 .timeline-item-subtitle {
-  font-size: var(--fw-300);
+  font-size: var(--fw-600);
   line-height: 1.6;
   margin-bottom: 7px;
   color: var(--white-2);
