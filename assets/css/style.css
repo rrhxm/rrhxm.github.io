@@ -896,8 +896,29 @@ main {
   border-radius: inherit;
 }
 
+/*honors*/
+.honors-title { margin-bottom: 20px; }
 
+.honors-item-title {
+  font-size: var(--fs-6);
+  line-height: 1.3;
+  margin-bottom: 5px;
+}
 
+.honors-item-subtitle {
+  font-size: var(--fw-600);
+  line-height: 1.6;
+  margin-bottom: 7px;
+  color: var(--white-2);
+}
+
+.honors-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  text-align: justify;
+}
 
 
 /*-----------------------------------*\
