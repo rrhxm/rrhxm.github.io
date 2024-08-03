@@ -765,7 +765,7 @@ main {
 
 .article-title { margin-bottom: 30px; }
 
-/* iintro */
+/* intro */
 .intro {
   color: var(--light-gray);
   font-size: var(--fs-6);
@@ -808,6 +808,7 @@ main {
   line-height: 1.6;
   margin-bottom: 7px;
   color: var(--white-2);
+  text-align: justify;
 }
 
 .timeline-list span {
