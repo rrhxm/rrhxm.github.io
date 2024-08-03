@@ -746,6 +746,8 @@ main {
 .stack-item {
   min-width: 50%;
   scroll-snap-align: start;
+  max-height: 100px;
+
 }
 
 .stack-item img {
