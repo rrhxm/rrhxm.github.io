@@ -751,7 +751,7 @@ main {
 }
 
 .stack-item img {
-  width: 100%;
+  width: 60%;
 /*   filter: grayscale(1); */
   transition: var(--transition-1);
 }
